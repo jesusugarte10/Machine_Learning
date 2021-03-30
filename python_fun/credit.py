@@ -36,7 +36,6 @@ def minimum_Payment(balance, apr):
     return monthly_Payment
 
 def finalBalance(balance, payment):
-
     time = 1
     while(balance > 0):
         balance -= payment 
